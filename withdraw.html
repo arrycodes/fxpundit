@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Fxmarketpundit - Levi Account Dashboard </title>
+		   <link rel="shortcut icon" href="../asset/images/favico.png" type="image/x-icon"/>  
+     <script src="js/jquery-1.11.1.min.js"></script>
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style3.css">
+		 <link rel="stylesheet" href="css/mobile.css">
+		 <link rel="stylesheet" href="css/custom.css">
+       
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="js/jquery.mCustomScrollbar.min.css">
+      
+		   <script src="js/clipboard.min.js"></script>
+    </head>
+    <body style="background-color:#343434;">
+	<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/61d4a38d969d3d2539a099cc/1foj9tplc';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->	<script src="js/online.js"></script>
+	
+	
+	
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+               <!--<div id="dismiss">
+                    <i class="fa fa-arrow-left"></i>
+                </div>--->
+
+                <div class="sidebar-header">
+                    <img class="img-responsive" style="width:100px;border-radius:30px;margin:20px;" src="img/users.png"/>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <p> Hi <b>Levi</b>&nbsp <!---&nbsp;&nbsp;<button onclick="parent.location='logout'" class="btn btn-sm btn-warning"><i class="fa fa-power-off"></i></button>---></p>
+                  
+                    <!---<li>
+                        <a href="./"><i class="fa fa-dashboard"></i> &nbsp;&nbsp;Dashboard</a>
+                    </li>-->
+                   
+				   
+					 
+					 <li>
+                        <a href="deposit"><i class="fa fa-money"></i> &nbsp;&nbsp;Deposit & withdrawal</a>
+                    </li>
+										<li>
+                        <a href="verifyid"><i class="fa fa-id-card"></i> &nbsp;&nbsp;Verify Identity</a>
+                    </li>
+					 <li>
+                        <a href="purchaseCrypto"><i class="fa fa-btc"></i> &nbsp;&nbsp;Purchase Crypto</a>
+                    </li>
+					<li>
+                        <a href="history"><i class="fa fa-signal"></i> &nbsp;&nbsp;Transactions</a>
+                    </li>
+					<li>
+                        <a href="trade_history"><i class="fa fa-calendar"></i> &nbsp;&nbsp;Trade History</a>
+                    </li>
+					<li>
+                        <a href="traderbase"><i class="fa fa-sign-in"></i> &nbsp;&nbsp;Trading Account</a>
+                    </li>
+					 <li>
+                        <a href="referone"><i class="fa fa-user"></i> &nbsp;&nbsp;Referral</a>
+                    </li>
+					<li>
+                        <a href="notify"><i class="fa fa-bell"></i> &nbsp;&nbsp;Notification</a>
+                    </li>
+					<li>
+                        <a href="#" onclick="parent.location='profile'"><i class="fa fa-user"></i> &nbsp;&nbsp;Manage profile</a>
+                    </li>
+					
+                </ul>
+
+              
+            </nav>
+            <!-- Page Content Holder -->
+            <div id="content">
+					<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <!----<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>--->
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "BTC/USD"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "ETH/USD"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+							
+		<div align="center" id="google_translate_element"></div>
+		<script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+		}
+		</script>
+		<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+							
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span> </span>
+								
+                            </button>&nbsp;&nbsp;
+							<b>Fxmarketpundit</b>
+							<i onclick="parent.location='notify'" class="fa fa-bell pull-right">
+							<span style="font-size:5pt;margin-bottom:5pt" class="badge">0</span>
+							</i>
+							
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li style="display:none;"><a href="#">Balance : <b>$ 0.00</b></a></li>
+                                <li style="display:none;"><a href="#">Earnings : <b>USD 0.00</b></a></li>
+                                
+								
+                                <li style="display:none;"><a href="notify"><i class="fa fa-bell fa-1x"></i><i class="badge badge-primary">0</i></a></li>
+								<li><a href="logout"><i class="fa fa-power-off fa-1x"></i> <!--Logout--></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav><div style="margin-top:50px;" class="container-fluid">
+					<div class="row" id="pageloader">
+						
+						<div id="calculate">
+
+<div class="row firbar">
+
+<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center"></div>
+
+<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+
+<div class="boxme15">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+	$(document).ready(function(){
+		
+			$(".bank_detail").hide();
+			$(".crpt_addr").show();
+		
+		});
+	function changer(str){
+					if(str == "bank"){
+						$(".bank_detail").show();
+						$(".crpt_addr").hide();
+					}else if(str == "eth"){
+						$(".bank_detail").hide();
+						$(".crpt_addr").show();
+					}else if(str == "btc"){
+						$(".bank_detail").hide();
+						$(".crpt_addr").show();
+					}else{
+						$(".bank_detail").hide();
+						$(".crpt_addr").show();
+					}
+				}
+</script>
+
+<h4 style="margin-top:10pt;"><i class="fa fa-money"></i>&nbsp;&nbsp; REQUEST WITHDRAWAL <button class="btn btn-sm btn-info pull-right" onclick="parent.location='deposit'"><i class="fa fa-bank"></i> &nbsp;&nbsp;Deposit</button></h4>
+<!---<hr/>--->
+ <form action="with.php" method="POST">
+ 
+<div class="row">
+<div class="col-md-6">
+
+<p class="tro">Amount (USD) </p>
+<input type="number" placeholder="Enter amount" class="form-control ttx" name="amt" required=""/>
+
+</div>
+<div class="col-md-6">
+
+<p class="tro">Select wallet</p>
+<select required="" class="form-control slec" onchange="return changer(this.value)" name="ctype">
+<option value="btc">Bitcoin Wallet</option>
+<option value="eth">Ethereum Wallet</option>
+<option value="bank">Bank Transfer</option>
+</select>
+
+</div>
+</div>
+
+
+
+<div class="crpt_addr">
+<p class="tro">Crypto Address.</p>
+<input type="text"  value="" placeholder="Enter your Crypto Address" class="form-control ttx" name="addr">
+</div>
+
+<div class="bank_detail">
+<p class="tro">Banking details:</p>
+<textarea class="form-control" placeholder="Enter Bank account details if you choosed bank transfer" name="bank"></textarea>
+</div>
+ 
+ <input type="hidden" value="withdraw" name="type"/>
+ <input type="hidden" name="user" value="bys@bys.com"/>
+ 
+ <button type="submit" style="" class="btn btn-warning iup"><i class="fa fa-send"></i> &nbsp;&nbsp;PROCESS</button>
+ 
+ </form>
+
+ 
+ 
+
+	<!---<h4 style="text-align:center;padding:15px;margin-top:20pt;"><i class="fa fa-cloud-upload"></i> UPLOAD PROOF OF ID</h4>
+
+<form action="proof.php" method="POST">
+
+<p class="tro">Upload File</p>
+
+<input type="file" placeholder="Upload id" class="filer" name="amt" required=""/>
+	
+
+	<input type="hidden" name="userpho" value="bys@bys.com"/>
+
+
+
+	<div>
+	<button type="submit" style="width:100%;padding:15px;" class="btn btn-success">UPLOAD ID</button>
+	</div>
+
+</form>---->
+
+	
+ </div>
+ 
+</div>
+
+<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center"></div>
+
+
+</div>
+
+</div> 
+ 
+ 
+					</div>
+					<div style="margin-top:60px;" class="col-lg-12 col-md-12"></div>
+</div>
+
+  </div>
+        </div>
+        <div class="overlay"></div>
+<div class="mobilemenu">
+	<div class="container-fluid">
+	
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<button onclick="parent.location='./'" class="btn btn-updated"><i class="fa fa-dashboard"></i><br/>Home</button>
+		</div>
+		
+		<!---<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<button onclick="load('aboutus.html')" class="btn btn-updated"><i class="fa fa-user"></i><br/>profile</button>
+		</div>-->
+		
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<button onclick="parent.location='deposit'" class="btn btn-updated"><i class="fa fa-credit-card"></i><br/>Deposit</button>
+		</div>
+		
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<button onclick="parent.location='with'" class="btn btn-updated"><i class="fa fa-calculator"></i><br/>Withdraw</button>
+		</div>
+		
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<button onclick="parent.location='logout'" class="btn btn-updated"><i class="fa fa-power-off"></i><br/>Logout</button>
+		</div>	
+	</div>
+	
+	</div>
+	
+</div>	
+ <!-- Bootstrap Js CDN -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+				$(".hidebal").hide();
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#dismiss, .overlay').on('click', function () {
+                    $('#sidebar').removeClass('active');
+                    $('.overlay').fadeOut();
+                });
+
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').addClass('active');
+                    $('.overlay').fadeIn();
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+		
+		     
+    </body>
+</html>

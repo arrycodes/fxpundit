@@ -1,0 +1,504 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Fxmarketpundit - Levi Account Dashboard </title>
+		   <link rel="shortcut icon" href="../asset/images/favico.png" type="image/x-icon"/>  
+     <script src="js/jquery-1.11.1.min.js"></script>
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style3.css">
+		 <link rel="stylesheet" href="css/mobile.css">
+		 <link rel="stylesheet" href="css/custom.css">
+       
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="js/jquery.mCustomScrollbar.min.css">
+      
+		   <script src="js/clipboard.min.js"></script>
+    </head>
+    <body style="background-color:#343434;">
+	<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/61d4a38d969d3d2539a099cc/1foj9tplc';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->	<script src="js/online.js"></script>
+	
+	
+	
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+               <!--<div id="dismiss">
+                    <i class="fa fa-arrow-left"></i>
+                </div>--->
+
+                <div class="sidebar-header">
+                    <img class="img-responsive" style="width:100px;border-radius:30px;margin:20px;" src="img/users.png"/>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <p> Hi <b>Levi</b>&nbsp <!---&nbsp;&nbsp;<button onclick="parent.location='logout'" class="btn btn-sm btn-warning"><i class="fa fa-power-off"></i></button>---></p>
+                  
+                    <!---<li>
+                        <a href="./"><i class="fa fa-dashboard"></i> &nbsp;&nbsp;Dashboard</a>
+                    </li>-->
+                   
+				   
+					 
+					 <li>
+                        <a href="deposit"><i class="fa fa-money"></i> &nbsp;&nbsp;Deposit & withdrawal</a>
+                    </li>
+										<li>
+                        <a href="verifyid"><i class="fa fa-id-card"></i> &nbsp;&nbsp;Verify Identity</a>
+                    </li>
+					 <li>
+                        <a href="purchaseCrypto"><i class="fa fa-btc"></i> &nbsp;&nbsp;Purchase Crypto</a>
+                    </li>
+					<li>
+                        <a href="history"><i class="fa fa-signal"></i> &nbsp;&nbsp;Transactions</a>
+                    </li>
+					<li>
+                        <a href="trade_history"><i class="fa fa-calendar"></i> &nbsp;&nbsp;Trade History</a>
+                    </li>
+					<li>
+                        <a href="traderbase"><i class="fa fa-sign-in"></i> &nbsp;&nbsp;Trading Account</a>
+                    </li>
+					 <li>
+                        <a href="referone"><i class="fa fa-user"></i> &nbsp;&nbsp;Referral</a>
+                    </li>
+					<li>
+                        <a href="notify"><i class="fa fa-bell"></i> &nbsp;&nbsp;Notification</a>
+                    </li>
+					<li>
+                        <a href="#" onclick="parent.location='profile'"><i class="fa fa-user"></i> &nbsp;&nbsp;Manage profile</a>
+                    </li>
+					
+                </ul>
+
+              
+            </nav>
+            <!-- Page Content Holder -->
+            <div id="content">
+					<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <!----<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>--->
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "BTC/USD"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "ETH/USD"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+							
+		<div align="center" id="google_translate_element"></div>
+		<script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+		}
+		</script>
+		<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+							
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span> </span>
+								
+                            </button>&nbsp;&nbsp;
+							<b>Fxmarketpundit</b>
+							<i onclick="parent.location='notify'" class="fa fa-bell pull-right">
+							<span style="font-size:5pt;margin-bottom:5pt" class="badge">0</span>
+							</i>
+							
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li style="display:none;"><a href="#">Balance : <b>$ 0.00</b></a></li>
+                                <li style="display:none;"><a href="#">Earnings : <b>USD 0.00</b></a></li>
+                                
+								
+                                <li style="display:none;"><a href="notify"><i class="fa fa-bell fa-1x"></i><i class="badge badge-primary">0</i></a></li>
+								<li><a href="logout"><i class="fa fa-power-off fa-1x"></i> <!--Logout--></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <div style="margin-top:10px;padding:0pt;" class="container-fluid">
+					<div class="row" id="pageloader">
+						
+										<div class="col-md-12">
+							<script type="text/javascript">
+								$(document).ready(function(){
+									$("#toggleBalance").click(function(){
+										$(".hideball").slideToggle("slow");
+									});
+									//$("#stockScreen").hide();
+									$("#stockchange").click(function(){
+										$("#stockScreen").show("fast");
+									});
+									
+									
+								});
+							</script>
+							<div style="opacity:0.9;" class="list-group">
+							
+							<div id="toggleBalance" class="list-group-item">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4>Balance</h4></div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h5>$ 0.00 &nbsp;&nbsp;&nbsp;<i class="btn btn-default fa fa-arrow-down"></i></h5></div>
+									
+								</div>
+							</div>
+				<div style="display:none;background-color:#343434;color:white;" class="list-group-item hideball">
+							<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4>Earnings</h4></div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h5>$ 0.00</h5></div>
+									
+								</div>
+							</div>
+					<div style="display:none;" class="list-group-item hideball">
+							<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4>Withdrawals</h4></div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h5>$ 0.00</h5></div>
+									
+								</div>
+							</div>
+							</div>
+						</div>						
+						<div style="margin-top:10px;" class="col-lg-3 col-md-3">
+								<!----<button id="stockchange" style="margin-bottom:10pt;" class="btn btn-primary btn-sm">STOCKS <i class="fa fa-arrow-down"></i></button>--->
+								<div id="stockScreen">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <!---<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/screener/" rel="noopener" target="_blank"><span class="blue-text">Stock Screener</span></a> by TradingView</div>--->
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "width": "100%",
+  "height": 460,
+  "defaultColumn": "overview",
+  "defaultScreen": "most_capitalized",
+  "market": "america",
+  "showToolbar": false,
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+</div>						</div>
+						<div style="margin-top:10px;" class="col-lg-9 col-md-9">
+							<!---<button id="stockchange" style="margin-bottom:10pt;" class="btn btn-primary btn-lg">STOCKS <i class="fa fa-arrow-down"></i></button>--->
+							<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_76041"></div>
+  <!---<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>--->
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": "100%",
+  "height": 500,
+  "symbol": "USDJPY",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "dark",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "withdateranges": true,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "hotlist": true,
+  "container_id": "tradingview_76041"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->						
+						</div>
+						
+						<div style="margin-top:10px;margin-bottom:20px;" class="col-lg-12 col-md-12">
+						
+						<div id="calculate">
+<script type="text/javascript">
+								$(document).ready(function(){
+									$("#toggleTab").show();
+									$("#tradeHistory").click(function(){
+										$("#toggleTab").slideToggle();
+									});
+									
+								});
+							</script>
+<div class="row firbar">
+
+<!---<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center"></div>-->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--<div class="boxme15">-->
+	<ul style="margin-top:15pt;font-weight:bold;opacity:0.9;" class="list-group">
+		<!---<li class="list-group-item">
+		<i class="fa fa-signal"></i> TRADE HISTORY
+		</li>-->
+		<li class="list-group-item">
+			 <p id='toggleTab' class='mf text-center'><i class='fa fa-bar-chart' style='font-size:80pt;color:lightgray;'></i><br/><br/> No trade history found!<p>		
+		</li>
+	</ul>
+	<!---<h4><i class="fa fa-signal"></i> TRADE <font style="color:white;">HISTORY</font>
+	&nbsp;&nbsp;<span style="background-color:white;color:black;" id="tradeHistory" class="badge"><i class="fa fa-arrow-down"></i></span></h4>  <hr/>--->
+	
+	
+ 
+        
+<!---</div>-->
+
+</div>
+
+
+<div style="display:none;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+<div class="boxme15">
+	<h4 style="text-align:center;border:1px dashed black;padding:15px;margin-top:0px;margin-bottom:20px;"><i class="fa fa-stats"></i> TRADE <font style="color:green;">HISTORY</font></h4>
+ 
+         <p class='mf'><i class='fa fa-bar-chart' style='font-size:80pt;color:lightgray;'></i><br/><br/> No trade history found!<p></div>
+
+</div>
+
+</div>
+
+</div> 
+ 
+ 						</div>
+						
+						
+						<div style="margin-top:10px;" class="col-lg-5 col-md-5">
+							<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <!---<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>--->
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "width": "100%",
+  "height": 500,
+  "defaultColumn": "overview",
+  "screener_type": "crypto_mkt",
+  "displayCurrency": "USD",
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->						</div>
+						
+						<div style="margin-top:10px;" class="col-lg-4 col-md-4">
+							<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <!---<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-usa/market-movers-gainers/" rel="noopener" target="_blank"><span class="blue-text">Stock Market</span></a> by TradingView</div>-->
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "12M",
+  "exchange": "US",
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "width": "100%",
+  "height": "500",
+  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 1)",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+  "symbolActiveColor": "rgba(33, 150, 243, 0.12)"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->						</div>
+						
+						<div style="margin-top:10px;" class="col-lg-3 col-md-3">
+							<div class="panel panel-default">
+	<div class="panel-body">
+		<form class="form-horizontal" id="trade" method="post" action="protrade" style="margin-left:10pt;width:90%;">
+                      		<div class="form-group ">
+                                <label class="control-label mb-10 text-left">Choose asset category</label>
+                                <select class="form-control" id="stock" name="stock">
+                                    <option disabled selected value="">---</option>
+                                    
+                                     <option  value="forex" id="Forex" class="">Forex</option>
+                                     
+                                    <option  value="cryptocurrency" id="Cryptocurrency" class="">Cryptocurrency</option>
+                                    
+                                    <option  value='indices' id="Indices" class="">Indices</option>
+                                    
+                                    <option  value="commodities" id="Commodities" class="">Commodities</option>
+                                    
+                                    <option  value="bonds" id="Bonds" class="">Bonds</option>
+                                    
+                                   
+                                    
+                                </select>
+                                 
+                            </div>
+                            
+ 							<div class="form-group ">
+                                <label class="control-label mb-10 text-left">Choose an asset</label>
+                                <select class="form-control" id="symbol" name="symbol">
+                                    <option disabled selected value="">---</option>
+                                    <option  onClick="payout(this)" id="EURUSD" class="">EURUSD</option>
+                                    <option  onClick="payout(this)" id="GBPUSD" class="">GBPUSD</option>
+                                    <option  onClick="payout(this)" id="USDJPY" class="">USDJPY</option>
+                                    <option  onClick="payout(this)" id="USDCHF" class="">USDCHF</option>
+                                    <option  onClick="payout(this)" id="AUDUSD" class="">AUDUSD</option>
+                                    <option  onClick="payout(this)" id="USDCAD" class="">USDCAD</option>
+                                </select>
+                                 
+                            </div>
+                                      
+                        <div class="form-group ">
+                           <label class="control-label mb-10 text-left">Trade Expiry</label>
+                           <select class="form-control" id="trade_in" name="trade_in">
+                                    <option  value="60">1 min</option>
+                                    <option  value="120">2 min</option>
+                                    <option  value="180">3 min</option>
+                                    <option  value="300">5 min</option>
+                                    <option  value="3600">1 hour</option>
+                                    <option  value="7200">2 hour</option>
+                                    <option  value="21600">6 hour</option>
+                                </select>
+                            
+                        </div>
+                        
+                        <div class="form-group ">
+                            <label class="control-label mb-10 text-left">Amount (USD)</label>
+                            <input type="text" class="form-control" id="amount" onKeyPress="calculatepayout()" onKeyUp="calculatepayout()" onBlur="calculatepayout()" name="amount" max="2000.00" value="">
+                            
+                        </div>                 
+                        <div >
+                        <input type="hidden" id="percent_form" name="percent" />
+                        <h4 class="text-center" id="perc"></h4></div>
+                         <div class="text-center text-success"><h3 style="margin-bottom:20pt;"><font style="color:purple;">Your payout = </font> <span class="payoutfigure"></span></h3>
+                        <input type="hidden" id="payoutform" name="payout" />
+                        </div>
+                        
+                        <div class="btn-group">
+                        	<button class="btn btn-success btn-icon left-icon"  type="submit" name="up"><i class="fa  fa-hand-o-up"></i> HIGHER </button>
+                        	<button class="btn btn-danger btn-icon left-icon" type="submit" name="down"><i class="fa  fa-hand-o-down"></i> LOWER</button>
+                        </div>
+</form>
+<script src="special.js" type="text/javascript"></script>	</div>
+		<div class="panel-footer">
+		<i class="fa fa-calculator"></i> Start Trading 
+		</div>						</div>
+			
+					</div>
+					<div style="margin-top:60px;" class="col-lg-12 col-md-12"></div>
+				
+				</div>
+				
+
+                
+          
+
+  </div>
+        </div>
+        <div class="overlay"></div>
+<div class="mobilemenu">
+	<div class="container-fluid">
+	
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<button onclick="parent.location='./'" class="btn btn-updated"><i class="fa fa-dashboard"></i><br/>Home</button>
+		</div>
+		
+		<!---<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<button onclick="load('aboutus.html')" class="btn btn-updated"><i class="fa fa-user"></i><br/>profile</button>
+		</div>-->
+		
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<button onclick="parent.location='deposit'" class="btn btn-updated"><i class="fa fa-credit-card"></i><br/>Deposit</button>
+		</div>
+		
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<button onclick="parent.location='with'" class="btn btn-updated"><i class="fa fa-calculator"></i><br/>Withdraw</button>
+		</div>
+		
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<button onclick="parent.location='logout'" class="btn btn-updated"><i class="fa fa-power-off"></i><br/>Logout</button>
+		</div>	
+	</div>
+	
+	</div>
+	
+</div>	
+ <!-- Bootstrap Js CDN -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+				$(".hidebal").hide();
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#dismiss, .overlay').on('click', function () {
+                    $('#sidebar').removeClass('active');
+                    $('.overlay').fadeOut();
+                });
+
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').addClass('active');
+                    $('.overlay').fadeIn();
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+		
+		     
+    </body>
+</html>
